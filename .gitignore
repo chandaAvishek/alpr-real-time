@@ -1,0 +1,19 @@
+# Ignore virtual environment
+alpr_env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore dataset and logs
+data/
+logs/
+
+# Ignore model weights
+*.pt
+*.pth
+
+# Ignore OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
