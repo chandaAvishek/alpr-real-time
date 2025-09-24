@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+ultralytics
+opencv-python
+easyocr
+matplotlib
+seaborn
+pandas
+jupyter
+streamlit

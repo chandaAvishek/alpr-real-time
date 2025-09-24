@@ -1,0 +1,1 @@
+🚗 Real-time ALPR system – detects vehicles, reads license plates, and visualizes results live.
