@@ -17,3 +17,7 @@ logs/
 .DS_Store
 Thumbs.db
 .vscode/
+
+
+# Ignore project sturcture
+project-sturcture.txt
