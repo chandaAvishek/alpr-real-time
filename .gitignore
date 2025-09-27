@@ -100,3 +100,7 @@ tmp/
 project-structure.txt
 notes.md
 todo.txt
+
+# Model weights
+*.pt
+yolov8*.pt
