@@ -66,7 +66,7 @@ cd alpr-real-time
 
 ```bash
 python -m venv alpr_env
-source alpr_env/bin/activate # Windows: alpr_env\Scripts\activate
+source alpr_env/bin/activate 
 ```
 
 
