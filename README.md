@@ -56,32 +56,32 @@ The system works in stages:
 
 1. **Get the code**
 
-'''bash
+```bash
 git clone https://github.com/yourusername/alpr-system.git
 cd alpr-real-time
-'''
+```
 
 
 2. **Set up your environment**
 
-'''bash
+```bash
 python -m venv alpr_env
 source alpr_env/bin/activate # Windows: alpr_env\Scripts\activate
-'''
+```
 
 
 3. **Install everything**
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 
 ## 🚀 Usage
 
 ### Running license plate detection
 
-'''python
+```python
 from src.detect_plate import LicensePlateDetector
 # Setup the Detector
 detector = LicensePlateDetector()
@@ -91,14 +91,14 @@ detector.load_model('models/license_plate_detection/best.pt')
 
 # Detect plates in your image
 results = detector.detect_plates('path/to/image.jpg')
-'''
+```
 
 
 ### Exploring the dataset
 
-'''python
+```python
 jupyter notebook notebooks/01_ccpd_exploration.ipynb
-'''
+```
 
 
 ## 📊 Development Progress
