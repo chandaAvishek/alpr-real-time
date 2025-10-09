@@ -12,3 +12,6 @@ scikit-learn
 tqdm
 jupyter
 streamlit
+streamlit
+plotly
+pillow
